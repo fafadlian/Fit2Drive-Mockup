@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta property="og:image" content="https://unsplash.com/photos/-Rc6usOigMk">
+        <title>Fadlian's Profile</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+          google.charts.load("current", {packages:["corechart"]});
+          google.charts.setOnLoadCallback(drawChart);
+          function drawChart() {
+            var data = google.visualization.arrayToDataTable([
+              ['Driving Style', 'Number of Journeys'],
+              ['Normal',     11],
+              ['Aggressive',      2],
+              ['Slow',    7]
+            ]);
+    
+            var options = {
+              pieHole: 0.4,
+            };
+    
+            var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+            chart.draw(data, options);
+          }
+        </script>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Fathi Fadlian</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile1.jpg" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger">User: Muhammad Fadlian</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#overview">Overview</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#this_month ">This Month<br>Stats</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#timeline ">Timeline Data</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#glossary">Glossary</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> -->
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#datvis">Data Visualisation</a></li> -->
+
+
+                    <br>
+                    <li class="nav-item">
+                        <div class="social-icons">
+                            <a class="social-icon" href="https://www.fit2drivemedicals.co.uk/" target = "_blank"><i class="fa fa-globe"></i></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->    
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="overview">
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class = "project-item">
+                            <h2 class="mb-5">Overall Driving Style</h2> 
+                            <div id="donutchart" style="width: 700px; height: 300px;" class="chart_left">
+                            </div>
+                            <div class="subheading mb-3">Summary: <br> Overall, your driving behaviour was in Normal Category with several occasion being Aggressive and Slow
+                            . However, as a healthy drivers you should drive faster primarily on motorways to be able to drive harmonically with others
+                        </div>
+
+
+ 
+                            <br><br><br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="this_month">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">This Month Stats</h2> 
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class = "project-item">
+                                <iframe class="chart_left" src="https://public.tableau.com/views/DrivingData2/Dashboard1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true" style="position:absolute;height:70%;width:70%" frameBorder="0"></iframe>
+                                
+                                <br><br><br><br><br><br><br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">James Buchanan High School</h3>
+                            <div class="subheading mb-3">Technology Magnet Program</div>
+                            <p>GPA: 3.56</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                    </div> -->
+                    
+                </div>
+            </section>
+            <!-- Experience-->
+           
+            <hr class="m-0" />
+           <!-- Inter Vis-->
+           <section class="resume-section" id="timeline">
+            <div class="resume-section-content">
+                <h2 class="mb-5">Timeline Data Visualisation</h2>
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <div class = "project-item">
+                            <iframe class="mb-0" src="https://public.tableau.com/views/DrivingData_16697562473830/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link:showVizHome=no&:embed=true" style="position:absolute;height:70%;width:70%" frameBorder="0"></iframe>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <p>x</p>
+                            <br><br><br>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            </section> 
+            <hr class="m-0" />
+            <!--Publications-->
+            
+            <!-- Skills-->
+            <section class="resume-section" id="glossary">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Glossary</h2>
+                    <!-- <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-angular"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-sass"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-less"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-s"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-grunt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                    </ul> -->
+                    <div class="subheading mb-3">Data</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            Speed
+                        </li>
+                        <li>
+                            Distance
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+                    <div class="subheading mb-3">Performance calculation</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            Python, SQL, R, MATLAB, HTML, CSS, Arduino, C, Git, VBA
+                        </li>
+                    </ul>
+                    <br>
+                    <br>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <!-- <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>As a "jack of all trades" i love being surrounded by different kind of people and get insights from them about how they see the world. Apart from a amateur programmer, i love playing futsal and hiking with my friends, i do play a piano a bit but there's nothing i can tell you about it since my skill is very limited</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and games.</p>
+                </div>
+            </section> -->
+            <hr class="m-0" />
+            <!-- Awards-->
+            <!-- Dat Vis-->
+            <!-- <section class="resume-section" id="datvis">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Data Visualisation</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <div class = "project-item2">
+                                <h3 class="mb-0">Data Visualisation</h3>
+                                <img src="assets/img/BarPlot.JPG">
+                                <img src="assets/img/Service x GDP.JPG">
+                                <img src="assets/img/Line.JPG">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </section> -->
+            
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
